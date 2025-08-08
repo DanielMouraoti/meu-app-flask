@@ -2,13 +2,29 @@
 venv/
 .venv/
 
-# Arquivos temporários do Python
+# Arquivos temporários do Python e do PyCharm
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.idea/
 
-# Pasta de configurações específicas (se o seu projeto tiver)
+# Logs e dados do projeto
+*.log
+*.db
 instance/
 
-# Outros arquivos que você não quer versionar
-.env
+# Configurações do editor
+.vscode/
+
+# Dependências do Pip
+/env/
+/venv/
+/ENV/
+/env.bak/
+/venv.bak/
+
+# Arquivos de dados e de build
+build/
+dist/
 .DS_Store
