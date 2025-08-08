@@ -1,0 +1,14 @@
+# Pastas de ambiente virtual
+venv/
+.venv/
+
+# Arquivos temporários do Python
+__pycache__/
+*.pyc
+
+# Pasta de configurações específicas (se o seu projeto tiver)
+instance/
+
+# Outros arquivos que você não quer versionar
+.env
+.DS_Store
